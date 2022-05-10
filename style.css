@@ -1,15 +1,38 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .logo {
     display: flex;
     width: 50px;
     height: 50px;
+    margin-left: 100px;
+    
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.links, a {
+    display: flex;
+    color: white;
+    text-decoration-style: none;
+    text-decoration: none;
+    gap: 10px;
+    margin-right: 50px
+}
+
+.top {
+    background-color: #1F2937;
+    color: white;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: bolder;
 }
